@@ -1,5 +1,5 @@
 # VidyoConnector-legacy-Mac
 Download latest VidyoClient-OSXSDK from: https://static.vidyo.io/latest/package/VidyoClient-OSXSDK.zip
-Copy VidyoConnector_Legacy_Mac folder to VidyoClient-OSXSDK/samples/ - should be parallel with VidyoConnector folder
-open VidyoConnector.xcodeproj in VidyoConnector_Legacy_Mac/macos/
+pull this repository into the VidyoClient-OSXSDK/samples directory
+open the xcode project under VidyoClient-OSXSDK/samples/VidyoConnector-legacy/macos/
 Build and run
