@@ -33,7 +33,7 @@ namespace VidyoConnector.ViewModel
             LocalWindows = new ObservableCollection<LocalWindowShareModel>();
             LocalMonistors = new ObservableCollection<LocalMonitorModel>();
             ChatMessages = new ObservableCollection<ChatMessageModel>();
-            Host = @"prod.vidyo.io";
+            Portal = @"vidyocloud.com";
         }
 
         /// <summary>
@@ -605,28 +605,28 @@ namespace VidyoConnector.ViewModel
          *  Properties are bindable on the UI
          */
 
-        private string _host;
-        public string Host {
-            get { return _host; }
-            set { _host = value; OnPropertyChanged(); }
-        }
-
-        private string _token;
-        public string Token {
-            get { return _token; }
-            set { _token = value; OnPropertyChanged(); }
+        private string _portal;
+        public string Portal {
+            get { return _portal; }
+            set { _portal = value; OnPropertyChanged(); }
         }
 
         private string _displayName;
         public string DisplayName {
             get { return _displayName; }
-            set { _displayName = value ?? string.Empty; OnPropertyChanged(); }
+            set { _displayName = value; OnPropertyChanged(); }
         }
 
-        private string _roomId;
-        public string RoomId {
-            get { return _roomId; }
-            set { _roomId = value; OnPropertyChanged(); }
+        private string _roomKey;
+        public string RoomKey {
+            get { return _roomKey; }
+            set { _roomKey = value; OnPropertyChanged(); }
+        }
+
+        private string _roomPin;
+        public string RoomPin {
+            get { return _roomPin; }
+            set { _roomPin = value ?? string.Empty; OnPropertyChanged(); }
         }
 
         private string _status;
@@ -758,7 +758,7 @@ namespace VidyoConnector.ViewModel
             Error = null;
             try
             {
-                var res = _connector.Connect(Host, Token, DisplayName, RoomId, new ConnectionListener(this));
+                var res = _connector.ConnectToRoomAsGuest(Portal, DisplayName, RoomKey, RoomPin, new ConnectionListener(this));
                 Log.DebugFormat("Returned '{0}'", res);
             }
             catch (Exception ex)
@@ -850,10 +850,10 @@ namespace VidyoConnector.ViewModel
                 {
                     var split = args[i].Split("=".ToCharArray(), 2);
 
-                    if (split[0].Contains("host")) Host = split[1];
-                    else if (split[0].Contains("token")) Token = split[1];
+                    if (split[0].Contains("portal")) Portal = split[1];
                     else if (split[0].Contains("displayName")) DisplayName = split[1];
-                    else if (split[0].Contains("recourceId")) RoomId = split[1];
+                    else if (split[0].Contains("roomKey")) RoomKey = split[1];
+                    else if (split[0].Contains("roomPin")) RoomPin = split[1];
                     else if (split[0].Contains("hideConfig")) Log.Warn("hideConfig property is not implemented yet.");
                     else if (split[0].Contains("autoJoin")) Log.Warn("autoJoin property is not implemented yet.");
                     else if (split[0].Contains("allowReconnect")) Log.Warn("allowReconnect property is not implemented yet.");

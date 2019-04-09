@@ -198,14 +198,14 @@
                         </Style>
                     </Grid.Resources>
                     
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Host" />
-                    <TextBox Grid.Row="0" Grid.Column="1" Name="Host" Text="{Binding Host}"/>
-                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Token" />
-                    <TextBox Grid.Row="1" Grid.Column="1" Name="Token" Text="{Binding Token}"/>
-                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Display Name" />
-                    <TextBox Grid.Row="2" Grid.Column="1" Name="DisplayName" Text="{Binding DisplayName}"/>
-                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Resource ID" />
-                    <TextBox Grid.Row="3" Grid.Column="1" Name="ResourceId" Text="{Binding RoomId}"/>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Portal" />
+                    <TextBox Grid.Row="0" Grid.Column="1" Name="Portal" Text="{Binding Portal}"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Display Name" />
+                    <TextBox Grid.Row="1" Grid.Column="1" Name="Token" Text="{Binding DisplayName}"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Room Key" />
+                    <TextBox Grid.Row="2" Grid.Column="1" Name="DisplayName" Text="{Binding RoomKey}"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Room Pin" />
+                    <TextBox Grid.Row="3" Grid.Column="1" Name="ResourceId" Text="{Binding RoomPin}"/>
                     <TextBlock Grid.Row="4" Grid.Column="1" Name="Errors" Text="{Binding Error}" Foreground="Red" FontWeight="DemiBold"/>
                 </Grid>
             </StackPanel>
