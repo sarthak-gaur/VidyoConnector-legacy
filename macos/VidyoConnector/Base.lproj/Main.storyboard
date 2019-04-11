@@ -232,49 +232,13 @@
                                     <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lyh-fd-KZp">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="450"/>
                                         <subviews>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eIj-O7-5kg" userLabel="RoomPin">
-                                                <rect key="frame" x="98" y="91" width="182" height="22"/>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8LC-Fa-mxF" userLabel="Portal">
+                                                <rect key="frame" x="6" y="205" width="90" height="17"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="182" id="Db8-lV-YXh"/>
-                                                    <constraint firstAttribute="height" constant="22" id="uXu-aK-JpT"/>
+                                                    <constraint firstAttribute="height" constant="17" id="Fed-Nz-dYe"/>
+                                                    <constraint firstAttribute="width" constant="86" id="YUY-hY-hUI"/>
                                                 </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="4QZ-YV-WuU">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ucp-3N-rpF">
-                                                <rect key="frame" x="98" y="128" width="182" height="22"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="182" id="9mw-wZ-toJ"/>
-                                                    <constraint firstAttribute="height" constant="22" id="GYG-9Z-nnO"/>
-                                                </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="hdg-4b-9d6">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="a8X-0F-VOK" userLabel="RoomKey">
-                                                <rect key="frame" x="98" y="165" width="182" height="22"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="182" id="MQM-hz-fdl"/>
-                                                    <constraint firstAttribute="height" constant="22" id="WcB-gC-YKY"/>
-                                                </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="CRR-Es-hle">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uSa-KF-pie" userLabel="Roomkey">
-                                                <rect key="frame" x="6" y="168" width="90" height="17"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="17" id="Jy3-fr-Dgs"/>
-                                                    <constraint firstAttribute="width" constant="86" id="gLD-ej-nSO"/>
-                                                </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Room Key" id="UOl-3z-Wfh" userLabel="RoomKey">
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Portal" id="B5s-yi-SVE" userLabel="Portal">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -292,28 +256,76 @@
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8LC-Fa-mxF" userLabel="Portal">
-                                                <rect key="frame" x="6" y="205" width="90" height="17"/>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uSa-KF-pie">
+                                                <rect key="frame" x="6" y="168" width="90" height="17"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="17" id="Fed-Nz-dYe"/>
-                                                    <constraint firstAttribute="width" constant="86" id="YUY-hY-hUI"/>
+                                                    <constraint firstAttribute="height" constant="17" id="Jy3-fr-Dgs"/>
+                                                    <constraint firstAttribute="width" constant="86" id="gLD-ej-nSO"/>
                                                 </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Portal" id="B5s-yi-SVE" userLabel="Portal">
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Display Name" id="UOl-3z-Wfh">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RC4-be-Xtw" userLabel="RoomPin">
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="a8X-0F-VOK" userLabel="Display Name">
+                                                <rect key="frame" x="98" y="165" width="182" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="182" id="MQM-hz-fdl"/>
+                                                    <constraint firstAttribute="height" constant="22" id="WcB-gC-YKY"/>
+                                                </constraints>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="CRR-Es-hle">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ktJ-Ev-IKz">
+                                                <rect key="frame" x="6" y="131" width="90" height="17"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="86" id="iTM-3t-o2K"/>
+                                                    <constraint firstAttribute="height" constant="17" id="vSb-mh-R06"/>
+                                                </constraints>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Room Key" id="yVV-7o-mhi">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ucp-3N-rpF">
+                                                <rect key="frame" x="98" y="128" width="182" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="182" id="9mw-wZ-toJ"/>
+                                                    <constraint firstAttribute="height" constant="22" id="GYG-9Z-nnO"/>
+                                                </constraints>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="hdg-4b-9d6">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RC4-be-Xtw">
                                                 <rect key="frame" x="6" y="94" width="90" height="17"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="17" id="LsW-t0-23s"/>
                                                     <constraint firstAttribute="width" constant="86" id="vdE-Wb-YyQ"/>
                                                 </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Room Pin" id="Viw-Bu-ODX" userLabel="RoomPin">
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Room Pin" id="Viw-Bu-ODX">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eIj-O7-5kg" userLabel="Room Pin">
+                                                <rect key="frame" x="98" y="91" width="182" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="182" id="Db8-lV-YXh"/>
+                                                    <constraint firstAttribute="height" constant="22" id="uXu-aK-JpT"/>
+                                                </constraints>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="4QZ-YV-WuU">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="x2t-Nk-O4l">
@@ -335,18 +347,6 @@
                                                     <constraint firstAttribute="width" constant="16" id="fzT-7W-xyz"/>
                                                 </constraints>
                                             </progressIndicator>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ktJ-Ev-IKz">
-                                                <rect key="frame" x="6" y="131" width="90" height="17"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="86" id="iTM-3t-o2K"/>
-                                                    <constraint firstAttribute="height" constant="17" id="vSb-mh-R06"/>
-                                                </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Display Name" id="yVV-7o-mhi">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
                                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Or2-6Q-7Cj">
                                                 <rect key="frame" x="55" y="240" width="190" height="190"/>
                                                 <constraints>
@@ -697,13 +697,13 @@
                         <outlet property="connectionSpinner" destination="w2u-Dv-0ke" id="zI5-ef-zRo"/>
                         <outlet property="controlsStatusText" destination="x2t-Nk-O4l" id="gst-oJ-FKa"/>
                         <outlet property="controlsView" destination="Lyh-fd-KZp" id="ir5-jw-070"/>
-                        <outlet property="displayName" destination="ucp-3N-rpF" id="UqT-pN-6P5"/>
+                        <outlet property="displayName" destination="a8X-0F-VOK" id="l8Z-qK-1UP"/>
                         <outlet property="mainView" destination="deg-Bk-Zpa" id="0Ec-n0-5GJ"/>
                         <outlet property="microphonePrivacyButton" destination="dmN-zH-cc8" id="SJz-bv-cOZ"/>
                         <outlet property="participantStatusText" destination="6XE-dr-tHB" id="iMf-7K-BtD"/>
                         <outlet property="portal" destination="HHg-eP-qPo" id="aY8-o4-D8e"/>
                         <outlet property="previewView" destination="aJS-od-feK" id="nka-k3-ZPF"/>
-                        <outlet property="roomKey" destination="a8X-0F-VOK" id="HbT-eF-bj9"/>
+                        <outlet property="roomKey" destination="ucp-3N-rpF" id="lMP-zP-Mwa"/>
                         <outlet property="roomPin" destination="eIj-O7-5kg" id="v24-34-EmK"/>
                         <outlet property="speakerPrivacyButton" destination="Ho1-8R-Ehr" id="vhd-JV-b84"/>
                         <outlet property="toggleConnectButton" destination="JHZ-x4-Zfn" id="1ba-th-TtL"/>

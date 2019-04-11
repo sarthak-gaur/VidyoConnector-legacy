@@ -660,14 +660,13 @@ const unsigned long NO_AUDIO_CONTENT_SHARE_MENU_OFFSET = 4;  // plus "None" vide
         [toolbarStatusText  setStringValue:@"Connecting..."];
         [controlsStatusText setStringValue:@"Connecting..."];
         [controlsStatusText setTextColor:[NSColor blackColor]];
-        
-        BOOL status;
+
         // Connect to a VidyoCloud system, not Vidyo.io.
-        status = [vc connectToRoomAsGuest:[[portal stringValue] UTF8String]
-                              DisplayName:[[displayName stringValue] UTF8String]
-                                  RoomKey:[[roomKey stringValue] UTF8String]
-                                  RoomPin:[[roomPin stringValue] UTF8String]
-                        ConnectorIConnect:self];
+        BOOL status = [vc connectToRoomAsGuest:[[portal stringValue] UTF8String]
+                                   DisplayName:[[displayName stringValue] UTF8String]
+                                       RoomKey:[[roomKey stringValue] UTF8String]
+                                       RoomPin:[[roomPin stringValue] UTF8String]
+                             ConnectorIConnect:self];
         if ( status == NO ) {
             [self connectorStateUpdated:VidyoConnectorStateFailure refreshUI:false];
         } else {      

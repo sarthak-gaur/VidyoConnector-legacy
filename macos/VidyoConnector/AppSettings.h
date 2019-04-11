@@ -30,7 +30,6 @@
 @property(nonatomic, readwrite) NSString *portal;
 @property(nonatomic, readwrite) NSString *roomKey;
 @property(nonatomic, readwrite) NSString *roomPin;
-@property(nonatomic, readwrite) BOOL vidyoCloudJoin;
 @property(nonatomic, readwrite) BOOL enableDebug;
 @property(nonatomic, readwrite) BOOL cameraPrivacy;
 @property(nonatomic, readwrite) BOOL microphonePrivacy;

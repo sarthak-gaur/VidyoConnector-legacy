@@ -22,7 +22,7 @@
 
 @implementation AppSettings
 
-@synthesize displayName, enableDebug, cameraPrivacy, microphonePrivacy, speakerPrivacy, experimentalOptions, hideConfig, autoJoin, allowReconnect, vidyoCloudJoin, portal, roomKey, roomPin;
+@synthesize displayName, enableDebug, cameraPrivacy, microphonePrivacy, speakerPrivacy, experimentalOptions, hideConfig, autoJoin, allowReconnect, portal, roomKey, roomPin;
 
 // - CAUTION: The application delegate class also has a method that checks the
 //   names/keys of all supported settings and that lists their default values.
@@ -35,19 +35,17 @@
     NSString *value = [standardDefaults stringForKey:@"displayName"];
     displayName = value ? value : @"DemoUser";
 
-    // Extract portal from URL
+    // Extract the portal
     value = [standardDefaults stringForKey:@"portal"];
-    portal = value ? value : @"";
-    
-    //Extract RoomKey from URL
+    portal = value ? value : @"vidyocloud.com";
+
+    // Extract the room key
     value = [standardDefaults stringForKey:@"roomKey"];
     roomKey = value ? value : @"";
-    
-    //Extract RoomPin from URL
+
+    // Extract the room pin
     value = [standardDefaults stringForKey:@"roomPin"];
     roomPin = value ? value : @"";
-    
-    vidyoCloudJoin = YES;
 
     // Determine whether the configuration should be hidden based on the command line option
     if ( [standardDefaults integerForKey:@"hideConfig"] ) {
@@ -94,7 +92,6 @@
     // Pass in any experimental options
     value = [standardDefaults stringForKey:@"experimentalOptions"];
     experimentalOptions = value ? value : @"";
-    
 }
 
 -(BOOL)toggleDebug {

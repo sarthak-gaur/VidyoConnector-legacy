@@ -36,10 +36,7 @@
     //   along with their default values, regardless of what the URL might provide.
     NSMutableDictionary *pairs = [NSMutableDictionary dictionaryWithDictionary:
                                   @{
-                                        @"host" : @"prod.vidyo.io",
-                                        @"token" : @"",
                                         @"displayName" : @"DemoUser",
-                                        @"resourceId" : @"DemoRoom",
                                         @"hideConfig" : @0,
                                         @"autoJoin" : @0,
                                         @"allowReconnect" : @1,
@@ -48,7 +45,6 @@
                                         @"microphonePrivacy" : @0,
                                         @"speakerPrivacy" : @0,
                                         @"experimentalOptions" : @"",
-                                        @"urlHost" : @"", // Used for VidyoCloud systems, not Vidyo.io
                                         @"portal" : @"",  // Used for VidyoCloud systems, not Vidyo.io
                                         @"roomKey" : @"", // Used for VidyoCloud systems, not Vidyo.io
                                         @"roomPin" : @""  // Used for VidyoCloud systems, not Vidyo.io
@@ -83,12 +79,6 @@
         // - CAUTION: The value can be INVALID, because it has not been checked.
         [pairs setValue:value forKey:key];
         NSLog(@"URL query: Parsed key-value pair '%@'='%@'.", key, value);
-    }
-
-    // Populate the "urlHost" if the host exists in the URL.
-    // Note: this is used for VidyoCloud systems, not Vidyo.io.
-    if ([url host]) {
-        [pairs setValue:[url host] forKey:@"urlHost"];
     }
 
     NSLog(@"URL query: Final %lu key-value pairs %@.", (unsigned long)[pairs count], [pairs description]);
