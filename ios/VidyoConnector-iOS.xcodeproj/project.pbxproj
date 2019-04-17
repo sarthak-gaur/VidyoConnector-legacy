@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2AA39F1DB14A9000F339F5 /* Vidyo.io-Vertical-Dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2AA39E1DB14A9000F339F5 /* Vidyo.io-Vertical-Dark@2x.png */; };
+		1D4F1CCD1CBECF0C005662D0 /* callEnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4F1CC71CBECF0C005662D0 /* callEnd.png */; };
+		1D4F1CCE1CBECF0C005662D0 /* callStart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4F1CC81CBECF0C005662D0 /* callStart.png */; };
+		1D4F1CCF1CBECF0C005662D0 /* cameraOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4F1CC91CBECF0C005662D0 /* cameraOff.png */; };
+		1D4F1CD01CBECF0C005662D0 /* cameraOnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4F1CCA1CBECF0C005662D0 /* cameraOnWhite.png */; };
+		1D4F1CD11CBECF0C005662D0 /* microphoneOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4F1CCB1CBECF0C005662D0 /* microphoneOff.png */; };
+		1D4F1CD21CBECF0C005662D0 /* microphoneOnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4F1CCC1CBECF0C005662D0 /* microphoneOnWhite.png */; };
+		1D7ABCA01BFBD35D00786F67 /* VidyoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ABC9F1BFBD35D00786F67 /* VidyoViewController.m */; };
+		1D81E8A31B96413200F9EB06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E8A21B96413200F9EB06 /* main.m */; };
+		1D81E8AC1B96413200F9EB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D81E8AA1B96413200F9EB06 /* Main.storyboard */; };
+		1D81E8AE1B96413200F9EB06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D81E8AD1B96413200F9EB06 /* Images.xcassets */; };
+		1D81E8D01BA0D47F00F9EB06 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81E8CF1BA0D47F00F9EB06 /* WelcomeViewController.m */; };
+		1DA6CCBC1CBEDDCF00305E40 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6CCBA1CBEDDCF00305E40 /* Logger.m */; };
+		1DAF0C8E2053165A0066CD0B /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAF0C8D2053165A0066CD0B /* AppSettings.m */; };
+		1DB334831BB9A55E00F1139D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DB334821BB9A55E00F1139D /* Settings.bundle */; };
+		1DBE13BD1FBE3C1B00EAB32A /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBE13BC1FBE3C1B00EAB32A /* gear.png */; };
+		1DD5E7BB1DB18770006D367E /* cameraSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5E7BA1DB18770006D367E /* cameraSwitch.png */; };
+		1DFDAFDB1BA9EE0300AC5F19 /* VidyoConnectorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFDAFDA1BA9EE0300AC5F19 /* VidyoConnectorAppDelegate.m */; };
+		1DFDB0151BAA18FA00AC5F19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFDB0141BAA18FA00AC5F19 /* UIKit.framework */; };
+		F9CA1EB1201AA10E00A469A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CA1EB0201AA10E00A469A3 /* AVFoundation.framework */; };
+		F9CA1EB3201AA1F100A469A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CA1EB2201AA1F100A469A3 /* AudioToolbox.framework */; };
+		F9CA1EB9201AA27C00A469A3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CA1EB8201AA27B00A469A3 /* CoreMedia.framework */; };
+		F9CA1EBF201AA4AB00A469A3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CA1EBE201AA4AB00A469A3 /* SystemConfiguration.framework */; };
+		F9CA1EC8201AA73400A469A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CA1EC7201AA73400A469A3 /* CoreLocation.framework */; };
+		F9F42E2A1E26DA6C002EAFDE /* VidyoClientIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F42E291E26DA6C002EAFDE /* VidyoClientIOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D2AA39E1DB14A9000F339F5 /* Vidyo.io-Vertical-Dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vidyo.io-Vertical-Dark@2x.png"; sourceTree = "<group>"; };
+		1D4F1CC71CBECF0C005662D0 /* callEnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callEnd.png; sourceTree = "<group>"; };
+		1D4F1CC81CBECF0C005662D0 /* callStart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callStart.png; sourceTree = "<group>"; };
+		1D4F1CC91CBECF0C005662D0 /* cameraOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraOff.png; sourceTree = "<group>"; };
+		1D4F1CCA1CBECF0C005662D0 /* cameraOnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraOnWhite.png; sourceTree = "<group>"; };
+		1D4F1CCB1CBECF0C005662D0 /* microphoneOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphoneOff.png; sourceTree = "<group>"; };
+		1D4F1CCC1CBECF0C005662D0 /* microphoneOnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphoneOnWhite.png; sourceTree = "<group>"; };
+		1D7ABC9E1BFBD29400786F67 /* VidyoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidyoViewController.h; sourceTree = "<group>"; };
+		1D7ABC9F1BFBD35D00786F67 /* VidyoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VidyoViewController.m; sourceTree = "<group>"; };
+		1D81E89D1B96413200F9EB06 /* VidyoConnector-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VidyoConnector-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D81E8A11B96413200F9EB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D81E8A21B96413200F9EB06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D81E8AB1B96413200F9EB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D81E8AD1B96413200F9EB06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D81E8CE1BA0D47F00F9EB06 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		1D81E8CF1BA0D47F00F9EB06 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		1DA6CCBA1CBEDDCF00305E40 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		1DA6CCBB1CBEDDCF00305E40 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		1DAF0C8C2053165A0066CD0B /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		1DAF0C8D2053165A0066CD0B /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		1DB334821BB9A55E00F1139D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1DBE13BC1FBE3C1B00EAB32A /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		1DD5E7BA1DB18770006D367E /* cameraSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraSwitch.png; sourceTree = "<group>"; };
+		1DFDAFD91BA9EE0300AC5F19 /* VidyoConnectorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VidyoConnectorAppDelegate.h; sourceTree = "<group>"; };
+		1DFDAFDA1BA9EE0300AC5F19 /* VidyoConnectorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VidyoConnectorAppDelegate.m; sourceTree = "<group>"; };
+		1DFDB0111BAA0A0000AC5F19 /* VidyoConnector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VidyoConnector.entitlements; sourceTree = "<group>"; };
+		1DFDB0121BAA0CE100AC5F19 /* VidyoConnector_iOS.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidyoConnector_iOS.pch; sourceTree = "<group>"; };
+		1DFDB0141BAA18FA00AC5F19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9CA1EB0201AA10E00A469A3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F9CA1EB2201AA1F100A469A3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F9CA1EB8201AA27B00A469A3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F9CA1EBE201AA4AB00A469A3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F9CA1EC7201AA73400A469A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F9F42E291E26DA6C002EAFDE /* VidyoClientIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VidyoClientIOS.framework; path = ../../../lib/ios/VidyoClientIOS.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D81E89A1B96413200F9EB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA1EB1201AA10E00A469A3 /* AVFoundation.framework in Frameworks */,
+				F9CA1EB3201AA1F100A469A3 /* AudioToolbox.framework in Frameworks */,
+				F9CA1EC8201AA73400A469A3 /* CoreLocation.framework in Frameworks */,
+				F9CA1EB9201AA27C00A469A3 /* CoreMedia.framework in Frameworks */,
+				F9CA1EBF201AA4AB00A469A3 /* SystemConfiguration.framework in Frameworks */,
+				1DFDB0151BAA18FA00AC5F19 /* UIKit.framework in Frameworks */,
+				F9F42E2A1E26DA6C002EAFDE /* VidyoClientIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D81E8941B96413200F9EB06 = {
+			isa = PBXGroup;
+			children = (
+				1DB334821BB9A55E00F1139D /* Settings.bundle */,
+				1DFDAFE81BA9F13F00AC5F19 /* Frameworks */,
+				1D81E89F1B96413200F9EB06 /* VidyoConnector */,
+				1D81E89E1B96413200F9EB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D81E89E1B96413200F9EB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D81E89D1B96413200F9EB06 /* VidyoConnector-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D81E89F1B96413200F9EB06 /* VidyoConnector */ = {
+			isa = PBXGroup;
+			children = (
+				1D81E8A21B96413200F9EB06 /* main.m */,
+				1D81E8AA1B96413200F9EB06 /* Main.storyboard */,
+				1DFDAFDA1BA9EE0300AC5F19 /* VidyoConnectorAppDelegate.m */,
+				1DFDAFD91BA9EE0300AC5F19 /* VidyoConnectorAppDelegate.h */,
+				1D7ABC9F1BFBD35D00786F67 /* VidyoViewController.m */,
+				1D7ABC9E1BFBD29400786F67 /* VidyoViewController.h */,
+				1D81E8CF1BA0D47F00F9EB06 /* WelcomeViewController.m */,
+				1D81E8CE1BA0D47F00F9EB06 /* WelcomeViewController.h */,
+				1DFC594F1BF53E850010B1CE /* Icons */,
+				1D81E8A01B96413200F9EB06 /* Supporting Files */,
+			);
+			path = VidyoConnector;
+			sourceTree = "<group>";
+		};
+		1D81E8A01B96413200F9EB06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DAF0C8D2053165A0066CD0B /* AppSettings.m */,
+				1DAF0C8C2053165A0066CD0B /* AppSettings.h */,
+				1DA6CCBA1CBEDDCF00305E40 /* Logger.m */,
+				1DA6CCBB1CBEDDCF00305E40 /* Logger.h */,
+				1D81E8AD1B96413200F9EB06 /* Images.xcassets */,
+				1D81E8A11B96413200F9EB06 /* Info.plist */,
+				1DFDB0111BAA0A0000AC5F19 /* VidyoConnector.entitlements */,
+				1DFDB0121BAA0CE100AC5F19 /* VidyoConnector_iOS.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DFC594F1BF53E850010B1CE /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1DBE13BC1FBE3C1B00EAB32A /* gear.png */,
+				1DD5E7BA1DB18770006D367E /* cameraSwitch.png */,
+				1D2AA39E1DB14A9000F339F5 /* Vidyo.io-Vertical-Dark@2x.png */,
+				1D4F1CC71CBECF0C005662D0 /* callEnd.png */,
+				1D4F1CC81CBECF0C005662D0 /* callStart.png */,
+				1D4F1CC91CBECF0C005662D0 /* cameraOff.png */,
+				1D4F1CCA1CBECF0C005662D0 /* cameraOnWhite.png */,
+				1D4F1CCB1CBECF0C005662D0 /* microphoneOff.png */,
+				1D4F1CCC1CBECF0C005662D0 /* microphoneOnWhite.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		1DFDAFE81BA9F13F00AC5F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA1EB0201AA10E00A469A3 /* AVFoundation.framework */,
+				F9CA1EB2201AA1F100A469A3 /* AudioToolbox.framework */,
+				F9CA1EC7201AA73400A469A3 /* CoreLocation.framework */,
+				F9CA1EB8201AA27B00A469A3 /* CoreMedia.framework */,
+				F9CA1EBE201AA4AB00A469A3 /* SystemConfiguration.framework */,
+				1DFDB0141BAA18FA00AC5F19 /* UIKit.framework */,
+				F9F42E291E26DA6C002EAFDE /* VidyoClientIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D81E89C1B96413200F9EB06 /* VidyoConnector-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D81E8C01B96413200F9EB06 /* Build configuration list for PBXNativeTarget "VidyoConnector-iOS" */;
+			buildPhases = (
+				1D81E8991B96413200F9EB06 /* Sources */,
+				1D81E89A1B96413200F9EB06 /* Frameworks */,
+				1D81E89B1B96413200F9EB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VidyoConnector-iOS";
+			productName = VidyoConnector;
+			productReference = 1D81E89D1B96413200F9EB06 /* VidyoConnector-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D81E8951B96413200F9EB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Vidyo;
+				TargetAttributes = {
+					1D81E89C1B96413200F9EB06 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = FMA43525ZW;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1D81E8981B96413200F9EB06 /* Build configuration list for PBXProject "VidyoConnector-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 1D81E8941B96413200F9EB06;
+			productRefGroup = 1D81E89E1B96413200F9EB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D81E89C1B96413200F9EB06 /* VidyoConnector-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D81E89B1B96413200F9EB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD5E7BB1DB18770006D367E /* cameraSwitch.png in Resources */,
+				1D2AA39F1DB14A9000F339F5 /* Vidyo.io-Vertical-Dark@2x.png in Resources */,
+				1DBE13BD1FBE3C1B00EAB32A /* gear.png in Resources */,
+				1D4F1CD21CBECF0C005662D0 /* microphoneOnWhite.png in Resources */,
+				1D4F1CCF1CBECF0C005662D0 /* cameraOff.png in Resources */,
+				1D4F1CCE1CBECF0C005662D0 /* callStart.png in Resources */,
+				1D81E8AC1B96413200F9EB06 /* Main.storyboard in Resources */,
+				1D4F1CCD1CBECF0C005662D0 /* callEnd.png in Resources */,
+				1D81E8AE1B96413200F9EB06 /* Images.xcassets in Resources */,
+				1DB334831BB9A55E00F1139D /* Settings.bundle in Resources */,
+				1D4F1CD01CBECF0C005662D0 /* cameraOnWhite.png in Resources */,
+				1D4F1CD11CBECF0C005662D0 /* microphoneOff.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D81E8991B96413200F9EB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D81E8D01BA0D47F00F9EB06 /* WelcomeViewController.m in Sources */,
+				1D81E8A31B96413200F9EB06 /* main.m in Sources */,
+				1DAF0C8E2053165A0066CD0B /* AppSettings.m in Sources */,
+				1D7ABCA01BFBD35D00786F67 /* VidyoViewController.m in Sources */,
+				1DFDAFDB1BA9EE0300AC5F19 /* VidyoConnectorAppDelegate.m in Sources */,
+				1DA6CCBC1CBEDDCF00305E40 /* Logger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D81E8AA1B96413200F9EB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D81E8AB1B96413200F9EB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D81E8BE1B96413200F9EB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../lib/ios\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../lib/ios/VidyoClientIOS.framework/Headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../lib/ios\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D81E8BF1B96413200F9EB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../lib/ios\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../lib/ios/VidyoClientIOS.framework/Headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../lib/ios\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D81E8C11B96413200F9EB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = VidyoConnector/VidyoConnector.entitlements;
+				CODE_SIGN_IDENTITY = "$(inherited)";
+				DEVELOPMENT_TEAM = FMA43525ZW;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VidyoConnector/VidyoConnector_iOS.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = VIDYO_MACOS;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = VidyoConnector/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidyo.VidyoCloudConnector;
+				PRODUCT_NAME = "VidyoConnector-iOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D81E8C21B96413200F9EB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = VidyoConnector/VidyoConnector.entitlements;
+				CODE_SIGN_IDENTITY = "$(inherited)";
+				DEVELOPMENT_TEAM = FMA43525ZW;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VidyoConnector/VidyoConnector_iOS.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = VIDYO_MACOS;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = VidyoConnector/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidyo.VidyoCloudConnector;
+				PRODUCT_NAME = "VidyoConnector-iOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D81E8981B96413200F9EB06 /* Build configuration list for PBXProject "VidyoConnector-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D81E8BE1B96413200F9EB06 /* Debug */,
+				1D81E8BF1B96413200F9EB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D81E8C01B96413200F9EB06 /* Build configuration list for PBXNativeTarget "VidyoConnector-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D81E8C11B96413200F9EB06 /* Debug */,
+				1D81E8C21B96413200F9EB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D81E8951B96413200F9EB06 /* Project object */;
+}
